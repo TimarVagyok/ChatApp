@@ -1,0 +1,6 @@
+.background-color{
+   -fx-background-color: linear-gradient(to left, #fbeed0, #efc050);
+}
+.bar-color{
+   -fx-background-color: #transparent;
+}

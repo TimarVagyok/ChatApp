@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="600.0" styleClass="background-color" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.abdullah.chatapplication.HelloController">
+    <children>
+          <Button layoutX="318.0" layoutY="283.0" mnemonicParsing="false" onAction="#handleSignUpButtonPressed" prefHeight="47.0" prefWidth="119.0" stylesheets="@css/button.css" text="Sign Up" />
+          <Button layoutX="172.0" layoutY="283.0" mnemonicParsing="false" onAction="#handleLoginButtonPressed" prefHeight="47.0" prefWidth="119.0" stylesheets="@css/button.css" text="Login" />
+      <Text layoutX="159.0" layoutY="115.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Name" />
+      <Text layoutX="159.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <TextField fx:id="UserNameTextField" layoutX="266.0" layoutY="98.0" />
+      <TextField fx:id="passwordTextfield" layoutX="266.0" layoutY="153.0" />
+    </children>
+</AnchorPane>

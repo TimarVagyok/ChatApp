@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="600.0" styleClass="background-color" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.abdullah.chatapplication.HelloController">
+    <children>
+        <AnchorPane layoutX="-2.0" layoutY="-3.0" prefHeight="522.0" prefWidth="113.0" styleClass="bar-color" stylesheets="@css/style.css">
+            <children>
+                <Button layoutY="50.0" mnemonicParsing="false" onAction="#handleSettingButtonPressed" prefHeight="47.0" prefWidth="119.0" stylesheets="@css/button.css" text="Setting" textFill="#d02222" />
+                <Button layoutY="97.0" mnemonicParsing="false" onAction="#handleMessagesButtonPressed" prefHeight="47.0" prefWidth="119.0" stylesheets="@css/button.css" text="Messages" />
+                <Button layoutY="144.0" mnemonicParsing="false" onAction="#handleProfileButtonPressed" prefHeight="47.0" prefWidth="119.0" stylesheets="@css/button.css" text="Profile" />
+                <Button layoutY="191.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="119.0" stylesheets="@css/button.css" text="Something" />
+            </children>
+        </AnchorPane>
+      <AnchorPane layoutX="183.0" layoutY="45.0" prefHeight="419.0" prefWidth="386.0">
+         <children>
+            <Text layoutX="61.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name:" />
+            <Text layoutX="61.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name:" />
+            <Text layoutX="61.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone number:" />
+            <Text layoutX="61.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Name:" />
+            <Label fx:id="labelProfileFirstName" layoutX="249.0" layoutY="63.0" text="Label" />
+            <Label fx:id="labelProfileLastName" layoutX="249.0" layoutY="111.0" text="Label" />
+            <Label fx:id="phonenumberProfileLabel" layoutX="249.0" layoutY="159.0" text="Label" />
+            <Label fx:id="usernameProfileLabel" layoutX="249.0" layoutY="210.0" text="Label" />
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
